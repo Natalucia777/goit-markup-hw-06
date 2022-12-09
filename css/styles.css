@@ -687,7 +687,9 @@ label {
   flex-direction: column;
   margin-bottom: 8px;
 }
-
+textarea {
+  resize: none;
+}
 
 /* portfolio */
 .portfolio-box {

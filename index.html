@@ -413,27 +413,24 @@
         <form name="modal-action" action="" class="modal-form">
           <div class="form-group" role="group" aria-labelledby="contact-details-head">
             <p id="contact-details-head">Залиште свої дані, ми вам передзвонимо</p>
-            <label>
-              Ім'я
-              <input type="text" name="username" />
-            </label>
-            <label>
-              Телефон
-              <input type="tel" name="tel" />
-            </label>
-            <label>
-              Пошта
-              <input type="email" name="email" />
-            </label>
-            <label>
-              Коментар
-              <textarea name="feedback" rows="7" placeholder="Введіть текст"></textarea>
-            </label>
-            <label>
-              <input type="checkbox" name="hobby" value="music" checked />
-              Погоджуюся з розсилкою та приймаю
-            </label>
+            
+            <label for="username">Ім'я</label>
+              <input type="text" name="username"  id="username"/>
+           
+            <label for="tel">Телефон</label>
+              <input type="tel" name="tel" id="tel"/>
+           
+            <label for="email">Пошта</label>
+              <input type="email" name="email" id="email"/>
+           
+
+            <label for="coment">Коментар</label>
+            <textarea name="coment" rows="7" id="coment" placeholder="Введіть текст"></textarea>
+           
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy">Погоджуюся з розсилкою та приймаю</label>
             <a href="">Умови договору</a>
+
           </div>
           <button type="submit">Відправити</button>
         </form>
