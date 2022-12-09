@@ -681,6 +681,14 @@ align-items: center;
   visibility: hidden;
   pointer-events: none;
 }
+
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+
 /* portfolio */
 .portfolio-box {
   display: flex;
