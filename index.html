@@ -413,20 +413,30 @@
         <form name="modal-action" action="" class="modal-form">
           <div class="form-group" role="group" aria-labelledby="contact-details-head">
             <b id="contact-details-head" class="form-title">Залиште свої дані, ми вам передзвонимо</b>
-
-            <div class="form-field">
+            
+            
+            <div class="form-field form-name">
               <label for="username" class="form-label">Ім'я</label>
-              <input type="text" name="username"  id="username" class="form-input"/>
+              <div class="form-icon">
+                <input type="text" name="username"  id="username" class="form-input"/>
+                <span class="icon"></span>
+              </div>
             </div>
 
             <div class="form-field">
             <label for="tel" class="form-label">Телефон</label>
-              <input type="tel" name="tel" id="tel" />
+              <div class="form-icon">
+                <input type="tel" name="tel" id="tel" class="form-input"/>
+                <span class="icon"></span>
+              </div>
             </div>
 
             <div class="form-field">
             <label for="email" class="form-label">Пошта</label>
-              <input type="email" name="email" id="email"  autocomplete="off"/>
+              <div class="form-icon">
+                <input type="email" name="email" id="email"  autocomplete="off" class="form-input"/>
+                <span class="icon"></span>
+              </div>
             </div>
 
             <div class="form-field">
