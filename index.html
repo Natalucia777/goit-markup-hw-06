@@ -419,7 +419,9 @@
               <label for="username" class="form-label">Ім'я</label>
               <div class="form-icon">
                 <input type="text" name="username"  id="username" class="form-input"/>
-                <span class="icon"></span>
+                <svg width="18" height="18" class="icon">
+                  <use href="./images/icons.svg#icon-person"></use>
+                </svg>
               </div>
             </div>
 
@@ -427,7 +429,9 @@
             <label for="tel" class="form-label">Телефон</label>
               <div class="form-icon">
                 <input type="tel" name="tel" id="tel" class="form-input"/>
-                <span class="icon"></span>
+                <svg width="18" height="18" class="icon">
+                  <use href="./images/icons.svg#icon-phone-black"></use>
+                </svg>
               </div>
             </div>
 
@@ -435,23 +439,31 @@
             <label for="email" class="form-label">Пошта</label>
               <div class="form-icon">
                 <input type="email" name="email" id="email"  autocomplete="off" class="form-input"/>
-                <span class="icon"></span>
+                <svg width="18" height="18" class="icon">
+                  <use href="./images/icons.svg#icon-email-black"></use>
+                </svg>
               </div>
             </div>
 
             <div class="form-field">
             <label for="coment" class="form-label">Коментар</label>
-            <textarea name="coment" rows="7" id="coment" placeholder="Введіть текст"></textarea>
+            <textarea name="coment" rows="7" id="coment" placeholder="Введіть текст" class="coment"></textarea>
             </div>
 
-            <div class="form-field">
-              
+
+
+
+            <div class="form-field colisy-acsept">
+              <input type="checkbox" name="policy" id="policy" class="input-chechbox visually-hidden" />
               <label for="policy" class="label-policy">
-                <input type="checkbox" name="policy" id="policy" />
-                Погоджуюся з розсилкою та приймаю
-              <a href="">Умови договору</a>
+               Погоджуюся з розсилкою та приймаю 
+              <a href="" class="policy-action">Умови договору</a>
               </label>
             </div>
+
+
+
+
             <div class="button-form-action">
               <button type="submit" class="button-form">Відправити</button>
             </div>
